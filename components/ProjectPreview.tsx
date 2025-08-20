@@ -35,11 +35,13 @@ const ProjectPreview: React.FC<Props> = ({
               {description}
             </p>
           </div>
-          <div className="h-12 w-12 bg-white rounded-full flex justify-center items-center cursor-pointer">
-            <Link href={link}>
-              <Arrow className="w-6 h-6" />
-            </Link>
-          </div>
+          {link && (
+            <div className="h-12 w-12 bg-white rounded-full flex justify-center items-center cursor-pointer">
+              <Link href={link}>
+                <Arrow className="w-6 h-6" />
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>
