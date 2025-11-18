@@ -18,7 +18,7 @@ const Game = () => {
         <div className="h-[90vh] rounded-3xl p-10 flex flex-col gap-16 bg-[url('/gradient-bg.jpg')] bg-cover">
           <GameEmbed 
             title="JavaScript game" 
-            description="Trying to get remove of all the bugs so you can save the carrots" 
+            description="Your goal is to save every carrot from the bugs. Tap only the carrots to protect them." 
           />
         </div>
       </section>
