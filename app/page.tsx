@@ -48,7 +48,7 @@ export default function Home() {
         />
         <ProjectPreview
           name="JavaScript Game"
-          description="Trying to get remove of all the bugs so you can save the carrots"
+          description="To save every carrot from the bugs"
           imageUrl="/game.png"
           link="/game"
           dark
