@@ -50,7 +50,7 @@ export default function Home() {
           name="JavaScript Game"
           description="Trying to get remove of all the bugs so you can save the carrots"
           imageUrl="/game.png"
-          // link="/game"
+          link="/game"
           dark
         />
       </section>
